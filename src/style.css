@@ -1,3 +1,94 @@
-body{
-    background-color: red;
+@font-face {
+    font-family: "mont";
+    src: url("/src/Montserrat/Montserrat-VariableFont_wght.ttf"), format('truetype');
+
 }
+@font-face {
+    font-family: "ant";
+    src: url("/src/Anton/Anton-Regular.ttf"), format('truetype');
+
+}@font-face {
+    font-family: "inc";
+    src: url("/src/Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf"), format('truetype');
+
+}@font-face {
+    font-family: "inter";
+    src: url("/src/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf"), format('truetype');
+
+}@font-face {
+    font-family: "roboto";
+    src: url("/src/Roboto_Condensed/RobotoCondensed-Italic-VariableFont_wght.ttf"), format('truetype');
+
+}
+
+/* OTHER */
+/* OTHER */
+
+
+/* HEADER */
+
+.header{
+    display: grid;
+    grid-template-columns: repeat(1,100vw);
+    grid-template-rows: 50px 40px 40px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" fill="%23037790"><defs><linearGradient id="grad1" x1="0%25" y1="0%25" x2="100%25" y2="100%25"><stop offset="0%25" style="stop-color:%23037790;stop-opacity:1" /><stop offset="100%25" style="stop-color:%23037790;stop-opacity:0.9" /></linearGradient></defs><polygon points="0,0 1000,0 1000,100 0,200" fill="url(%23grad1)"/></svg>');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 250px;
+}
+.logoCon{
+    cursor: pointer;
+    min-width: 100vw;
+    height: 40px;
+
+}
+.logo {
+    font-family: "inter";
+    font-size: 35px ;
+}
+.svgBack{
+    width: 55vw;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    margin : auto;
+}
+
+.links {
+    display: flex;
+    color: white;
+    gap: 10px;
+
+    font-family:"mont" ;
+    font-size: 12px;
+    margin: auto;
+}
+
+.buttons{
+    display: flex;
+    margin: auto;
+    gap: 50px;
+}
+.btnHead{
+    border: solid 1px #0082FC;
+    min-width: 70px;
+    min-height: 30px;
+
+    background-color: #0082FC;
+    /* box-shadow: .1rem .1rem .1rem #9082FC; */
+    /* padding: 8px 20px; */
+
+    color: white;
+    font-family:"mont" ;
+    font-size: 8px;
+
+
+}
+/* HEADER */
+
+/* MAIN */
+/* MAIN */
+
+/* FOOTER */
+/* FOOTER */
